@@ -1,8 +1,5 @@
 ## Face Skin Segmentation 
 
-<p align="center">
-  <img src="mask.gif">
-</p>
 
 Skin pixels have significant part in extraction of rPPG signal we trained first ever deep learning model for semantic 
 segmentation of skin and non skin pixels. This is novel technique for regio of interst (ROI) selection and tracking. The model is robust to motion, multiple poses and segments skin pixels from non skin very accurately.
@@ -10,6 +7,9 @@ Waveform of rPPG signal is different when extracted from different rigion of ski
 
 Data was obtained and merged from multiple resources. Publiically available datasets are small. Therefore, obtained data from multiple resources and merged them. Tried multiple architecure (U-net, FCN, LinkNet34) for segmentation. LinkNet34 performs well for this small dataset.
 
+<p align="center">
+  <img src="mask.gif">
+</p>
 ## Requirements
 
 * Python 3
