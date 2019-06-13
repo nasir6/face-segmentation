@@ -1,7 +1,7 @@
 ## Face Skin Segmentation 
 
 <p align="center">
-  <img width="460" height="300" src="mask.gif">
+  <img src="mask.gif">
 </p>
 
 Skin pixels have significant part in extraction of rPPG signal we trained first ever deep learning model for semantic 
