@@ -1,5 +1,7 @@
 ## Face Skin Segmentation 
 
+![](mask.gif)
+
 Skin pixels have significant part in extraction of rPPG signal we trained first ever deep learning model for semantic 
 segmentation of skin and non skin pixels. This is novel technique for regio of interst (ROI) selection and tracking. The model is robust to motion, multiple poses and segments skin pixels from non skin very accurately.
 Waveform of rPPG signal is different when extracted from different rigion of skin pixels therefore to consistently sample ROI from same part of skin we detect face in frame as pre step to semantic segmentation.
